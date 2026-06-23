@@ -16,8 +16,8 @@ Research software can be developed by researchers, software engineers, or a comb
 
 To learn more about the definition of research software, see
 
-* [Defining Research Software: a controversial discussion (2021) by Morane et al.](https://doi.org/10.5281/zenodo.5504016)
-* [The Research Software Encyclopedia: A Community Framework to Define Research Software (2022) by Sochat et al.](https://doi.org/10.5334/jors.359)
+* [Defining Research Software: a controversial discussion (2021) by Gruenpeter *et al.*](https://doi.org/10.5281/zenodo.5504016)
+* [The Research Software Encyclopedia: A Community Framework to Define Research Software (2022) by Sochat *et al.*](https://doi.org/10.5334/jors.359)
 
 
 ## Roles & examples of RS
