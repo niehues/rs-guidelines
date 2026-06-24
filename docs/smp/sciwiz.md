@@ -54,10 +54,11 @@ Do not answer with terms such as **"planned"** or **"not yet implemented"**. Ins
 
 ## A note on regulated software
 
-The SMP is **not** a substitute for the regulatory documentation that medical-device or in-vitro-diagnostic software must produce. It can sit alongside such documentation, but it cannot replace the artefacts required for Software as a Medical Device (SaMD), IVD software, clinical decision-support tools, or software developed under a formal quality-management system (ISO 13485, IEC 62304, ISO 14971, MDR, IVDR, etc.).
+The SMP is **not** a substitute for the regulatory documentation that must be produced for medical device or in vitro diagnostic software.
+While it can complement such documentation,it cannot replace the artefacts required for Software as a Medical Device (SaMD), IVD software, clinical decision-support tools, or software developed under a formal quality-management system (ISO 13485, IEC 62304, ISO 14971, MDR, IVDR, etc.).
 
 If your software produces or influences a clinical recommendation, triages patients, is embedded in a regulated device, or is otherwise covered by a sectoral regime, flag this in the General chapter and contact <LUMC legal> early. Treat the SMP as a high-level overview that complements, not replaces, your regulated documentation.
 
 ## A note on data: the SMP does not replace the DMP
 
-The LUMC SMP touches on data only insofar as software *handles* it. Details about legal basis, retention, consent, and storage of personal data belong in the LUMC Data Management Plan, not here. The Risks chapter only flags that the software has a relationship with sensitive data and points to the corresponding DMP.
+The LUMC SMP addresses data only in relation to how software *handles* it. Details about legal basis, retention, consent, and storage of personal data belong in your Data Management Plan. The [Risks & mitigation](../best-practices/risks.md) chapter only flags that the software has a relationship with sensitive data and points to the corresponding DMP.
