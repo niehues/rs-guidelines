@@ -35,15 +35,22 @@ When creating a project in SciWiz, you can hover over a management level tag to 
 
 Starting too low is risky: the project may grow before the basics are in place. Starting higher than needed may cost a little extra time, but it usually prevents worse work later. In SciWiz (the platform that hosts the SMP), the level you choose acts as a filter on the question set; you will only see questions tagged for your level and below. The level cannot be changed later, so choose carefully. If you are unsure, select the higher level.
 
-## Phases and tense
+## Answering questions at different project phases
 
-Every question carries a phase tag: **Ideation**, **Planning**, **Active development**, or **Maintenance**.
+Each question in the SMP is assigned a project phase. This determines whether you describe future plans or current practice.
 
-- In **Ideation** and **Planning**, an answer may describe the *intended* state.
-- In **Active development**, intentions become concrete: actual URLs, files, tools, and named responsibilities.
-- In **Maintenance**, the SMP tracks releases, deprecations, maintainer changes, and changes in support.
+**Project phases and expectations**
 
-The questions are written in the present tense for consistency. In an early-phase project, read "Does the project…" as "Does or will the project…". Do not invent a "planned" answer option unless the question explicitly asks for a future event, the phase tag already carries that meaning.
+- **Ideation** and **Planning**—describe the *intended* or planned state.
+- **Active development**—provide *concrete details*: real URLs, files, tools, and named responsibilities.
+- **Maintenance**—focus on *changes over time*: releases, deprecations, maintainer updates, and support status.
+
+**How to read and answer the questions**
+
+For consistency, questions are written in the present tense.
+In early project phases, read **"Does the project…"** as **"Does or will the project…"**.
+
+Do not answer with terms such as **"planned"** or **"not yet implemented"**. Instead, answer the question directly and describe the intended setup. The project phase already indicates whether you are describing current practice or future plans.
 
 ## A note on regulated software
 
