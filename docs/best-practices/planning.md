@@ -1,8 +1,9 @@
 # Planning & sustainability
 
-Most research software has phases, and it is worth thinking about them at the start. Treating the whole life cycle as visible, rather than just the bit that produces a paper, is significant for how well the code ages.
+The development of research software involves multiple phases that should be considered from the outset.
+Taking the whole software life cycle into account, rather than only the part leading to a publication, is essential for long-term code sustainability.
 
-Estimates are fine in all of this. The goal is to make resource needs explicit so that shortfalls are visible early, when they can still be planned around.
+Estimates are perfectly adeqaute in this context. The goal is to make resource needs explicit so that shortfalls are identified early, when they can still be addressed.
 
 ## Infrastructure & hardware
 
@@ -64,7 +65,8 @@ Include the hidden work. For software that is meant to be used by others, **docu
 
 ## Updates & maintenance
 
-Once active development winds down, what level of maintenance can the project actually deliver? Be honest. Promising more than you can deliver is worse than promising less.
+What level of maintenance can realistically be provided once the project transitions out of active development?
+Provide a realistic assessment and avoid overpromising.
 
 Useful categories:
 
