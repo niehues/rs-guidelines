@@ -136,15 +136,15 @@ Write the conditions down *before* they happen. Projects without retirement crit
 
 If retired software remains accessible, specify how:
 
-- **Archive location**: Zenodo, Software Heritage, an institutional repository, or a GitHub/GitLab archive flag on the repository.
-- **Persistent identifier**: a DOI or other PID if available (a concept DOI from Zenodo is ideal - it always points to the latest archived version; see [Sharing & licensing](sharing-licensing.md)).
+- **Archive location**: [Zenodo](https://help.zenodo.org/docs/github/archive-software/), [Software Heritage](https://docs.softwareheritage.org/#landing-preserve), an institutional repository, or a GitHub/GitLab archive flag on the repository.
+- **Persistent identifier**: a DOI or other PID if available (a [Concept DOI from Zenodo](https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning) is ideal - it always points to the latest archived version; see [Sharing & licensing](sharing-licensing.md)).
 - **Retention period**: 5 years, 10 years, indefinite, or "until superseded".
 - **Successor project**, if any, with a link.
 - **User notice**: a README banner, a release-note announcement, and (for active user bases) an email.
 
 If software *cannot* remain accessible, explain why. Valid reasons include sensitive data, contractual restrictions, or legal/regulatory constraints. "Lack of time" is a weak reason, a metadata-only archive (a Zenodo deposit with just the documentation and CITATION) is almost always feasible.
 
-> **In the SMP:** In earlier stages on the project, rite down what you *would* do. It is much easier to think about retirement when the project is hypothetical than when it is overdue.
+> **In the SMP:** In early stages of the project, write down how you *would* handle its retirement. It is much easier to plan for end-of-life when the project is still hypothetical than when it is already overdue.
 
 ## Further reading
 
