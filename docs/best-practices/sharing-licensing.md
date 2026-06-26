@@ -43,14 +43,15 @@ For a curated, audience-specific overview, see [Awesome Research Software Regist
 
 ## Persistent identifiers
 
-A persistent identifier (PID) is a stable, resolvable URL that survives platform migrations and renames. For research software, the canonical PID is a **DOI minted by Zenodo** when you archive a tagged release.
+A persistent identifier (PID) is a long-lasting, resolvable identifier that remains stable even if the location or metadata of the resource changes.
+For research software, a common practice is to use a **DOI**, e.g., minted via Zenodo when archiving a tagged release.
 
 The recommended workflow is short:
 
 1. Connect your GitHub or GitLab repository to [Zenodo](https://zenodo.org/account/settings/github/).
 2. Tag and push a release in the repository.
 3. Create a GitHub/GitLab Release for that tag.
-4. Zenodo mints a **version DOI** (specific to that release) and a **concept DOI** (always resolves to the latest archived version).
+4. Zenodo mints a [**version DOI**](https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning) (specific to that release) and a **concept DOI** (always resolves to the latest archived version).
 5. Add the DOI badge to your README and the DOI to your `CITATION.cff`.
 
 The concept DOI is the one you usually want to share in papers and slides - it never goes stale. The version DOI is the one to cite when reproducibility requires exact identity.
@@ -87,9 +88,9 @@ A practical reference on the whole workflow: [The Turing Way - Software Citation
 
 ## Software license
 
-Without a license, code is "all rights reserved" by default - even if it is publicly visible on GitHub. **"Public on GitHub" is not the same as "open source".** Without a license, no one (sometimes including you, depending on your contract) can legally reuse, fork, modify, or build on your code. Even compiling or running the software can constitute a violation in some jurisdictions.
+Without a license, code is "all rights reserved" by default - even if it is publicly visible on GitHub. **"Public on GitHub" is not the same as "open source".** Without a license, no one (sometimes not even you, depending on your contract) can legally reuse, fork, modify, or build on your code. Even compiling or running the software can constitute a violation in some jurisdictions.
 
-[Choose A License - No License](https://choosealicense.com/no-permission/) explains the implications in plain English.
+[Choose A License - No License](https://choosealicense.com/no-permission/) explains the implications.
 
 ### Which license?
 
@@ -105,6 +106,7 @@ Always use the [SPDX identifier](https://spdx.org/licenses/) (`Apache-2.0`, not 
 
 Useful references:
 
+- [OSI Approved Licenses](https://opensource.org/licenses) - Open source licenses approved by open source initiative
 - [Choose A License](https://choosealicense.com/) - a quick licenses walk-through.
 - [tl;dr Legal](https://www.tldrlegal.com/) - plain-English summaries of common licenses.
 - [Public License Selector](http://ufal.github.io/public-license-selector/) - a quiz for choosing a license.
@@ -118,11 +120,11 @@ The repository should contain a `LICENSE` file (the full license text) at the ro
 
 ## License compatibility
 
-If your software depends on or includes code under other licenses, your license must be compatible with theirs. Incompatible licenses can:
+If your software depends on or includes code under other licenses, your license must be compatible with them. Incompatible licenses can:
 
-- block you from distributing the combined software;
-- force you to adopt a more restrictive license;
-- create real legal exposure if your code is widely used downstream.
+- prevent you from distributing the combined software;
+- require you to adopt a more restrictive license;
+- create real legal risks if your code is widely used downstream.
 
 A few practical guidelines:
 
@@ -151,7 +153,7 @@ References:
 
 If a methods paper, preprint, or application-note exists for your software, link it. Capture the **DOI** (preferred), and where applicable also **PMID** and **PMCID** for PubMed-indexed work. Note which version of the software the paper describes.
 
-> **In the SMP:** the Publications list is open-ended. If exists, list at least the foundational methods paper (cited with software in `CITATION.cff`).
+> **In the SMP:** the Publications list is open-ended. If one exists, list at least the foundational methods paper cited with the software in `CITATION.cff`.
 
 ## Further reading
 
